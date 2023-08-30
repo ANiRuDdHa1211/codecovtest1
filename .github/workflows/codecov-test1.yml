@@ -1,6 +1,6 @@
 name: Codecov Integration
 
-on: push 
+on: [push, pull_request]
 
 jobs:
   unit_test_coverage:
